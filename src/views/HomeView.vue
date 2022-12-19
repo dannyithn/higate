@@ -6,7 +6,7 @@
     <div class='  bg-[radial-gradient(at_center_bottom,_#5567ff29,_#5567ff00,_#ffffff00)]'>
       <div class='max-w-[1128px] mx-auto flex flex-col px-4 768:px-[30px] items-center justify-center'>
         <div class='pt-8 pb-[43px] order-last 1440:order-first 1440:pt-[96px] 1440:pb-[26px]'>
-          <img :src="show.bannerImage.url" alt="{{ show.bannerImage.title }}" />
+          <img :src="show.bannerImage.url" :alt="show.bannerImage.title" :width="show.bannerImage.width" :height="show.bannerImage.height"  />
         </div>
         <div class='max-w-[825px] pt-[48px] 1440:pt-0'>
           <h1 
@@ -76,7 +76,7 @@
             </div>
           </div>
           <div class="flex md:justify-start w-[343px] h-[297px] md:max-w-[552px] md:max-h-[478px] xl2:w-[552px] xl2:h-[478px] relative">
-            <img :src="show.hiringImage.url" alt="{{ show.hiringImage.title }}" />
+            <img :src="show.hiringImage.url" alt="{{ show.hiringImage.title }}" :width="show.hiringImage.width" :height="show.hiringImage.height"/>
           </div>
         </div>
         <div class="grid grid-cols-1 md:grid-cols-2 md:gap-x-14 pb-[48px] xl2:grid-cols-4 xl2:gap-x-6 md:pb-[69px] px-4 md:px-0">
@@ -102,7 +102,7 @@
     <!-- end-block-3 -->
     <div class="max-w-[1128px] mx-auto grid grid-cols-1 px-4 pt-[48px] pb-[43px] md:px-[30px] md:grid-cols-2 md:gap-x-[24px] items-cente xl2:px-0 xl2:pt-[96px] xl2:pb-[100px] 1920:pb-[90px]">
       <div class="order-last justify-self-center md:justify-self-start md:order-first xl2:max-w-[512px] 1920:max-w-[543px] self-center">
-        <img :src="show.developerImage.url" alt="{{ show.developerImage.title }}" />
+        <img :src="show.developerImage.url" alt="{{ show.developerImage.title }}"  :width="show.developerImage.width" :height="show.developerImage.height" />
       </div>
       <div class="md:max-w-[560px] flex flex-col ml-0 1920:pl-[30px]">
           <div class="mb-8">
