@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "autoprefixer": "^10",
+    "contentful": "^9.2.14",
     "core-js": "^3.8.3",
     "eslint-plugin-vue": "^9.8.0",
     "moment": "^2.29.4",
